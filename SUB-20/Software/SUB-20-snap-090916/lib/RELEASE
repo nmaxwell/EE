@@ -1,0 +1,49 @@
+TODO:
+=====
+- Check situation when read size gets out of synch with device. Library 
+begins to read previous messages.
+
+011
+---
+- SPI SDIO
+
+010
+---
+- PWM
+
+009
+---
+- ADC_1_1V, ADC_GND
+- I2C config
+
+008
+---
+- Fixed ADC result interpretation for MUX=30,31
+
+007
+---
+- ADC Support
+
+006
+---
+- Fast PWM support
+- FIFO_CLEAR flag
+
+005
+---
+- sub_fifo_config
+
+004
+---
+- Fixed device enumeration procedure
+
+003
+---
+- Return SE_NSUPPORTED for SUB_UNKNOWN tag in responce
+- RS functions
+
+0.1.12.2
+--------
+- Use __VER__ instead of dll.nano
+- sub_lcd_write
+
