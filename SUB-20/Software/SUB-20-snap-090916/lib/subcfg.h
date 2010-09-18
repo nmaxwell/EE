@@ -22,6 +22,7 @@
 #define __SUBCFG_H__
 #ifndef ASSEMBLER
 #include <stddef.h>
+#include <stdint.h>
 #endif
 
 /*
